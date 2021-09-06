@@ -2,8 +2,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-//ok this work ?
-
 public class Calculator implements ActionListener {
     JFrame frame;
 
