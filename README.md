@@ -1,3 +1,3 @@
 # simpleCalculator
 
-A simple calculator, designed with OOP in mind, designed in Java.
+A simple calculator, designed with OOP in mind, coded in Java.
