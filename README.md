@@ -11,7 +11,7 @@ A simple calculator, designed with OOP in mind, coded in Java.
 
 -Keyboard shortcut functionality 
 
--Fixing Base2,4, 8 & 16 functionality by restricting or adding in some functions in some cases
+-Fixing Bases 2, 4, 8, & 16 functionality by restricting or adding in some functions in some cases
 
 # Known Issues
 -Divisible by 0 resulting in Infinity rather than NaN
