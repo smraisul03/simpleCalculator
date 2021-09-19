@@ -1,6 +1,6 @@
 # simpleCalculator
 
-# As of 9/19/21
+## As of 9/19/21
 
 A simple calculator, designed with OOP in mind, coded in Java.
 
