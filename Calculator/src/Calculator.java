@@ -6,6 +6,7 @@ import java.awt.event.ActionListener;
 public class Calculator implements ActionListener {
     JFrame frame;
 
+
     JTextField textField;
 
     JButton[] numberButtons = new JButton[16];
@@ -48,7 +49,7 @@ public class Calculator implements ActionListener {
         clearButton = new JButton("Clear");
         negativeButton = new JButton("(-)");
         base10Button = new JButton("base10");
-        textButton = new JButton("Soon");
+        textButton = new JButton("Editor");
 
         functionButtons[0] = additionButton;
         functionButtons[1] = subtractionButton;
@@ -186,8 +187,10 @@ public class Calculator implements ActionListener {
                 case '/' -> result = num1 / num2;
             }
 
+
             textField.setText(String.valueOf(result));
             num1 = result;
+
 
         }
 
@@ -245,7 +248,7 @@ public class Calculator implements ActionListener {
         }
 
         if (e.getSource() == textButton) {
-            new Calculator();
+            new textEditor();
         }
 
     }
